@@ -1,0 +1,33 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 2rem;
+}
+
+#title {
+  margin-bottom: 2rem;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  pointer-events: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.axis-label {
+  font-size: 0.8rem;
+}
